@@ -67,9 +67,23 @@ class TestSecurity(BaseClass):
         log = self.getLogger()
         log.info("The painting has been added")
 
+    def test_fileType(self, setup):
+        setup.get("http://127.0.0.1:5000/")
+        befor_delete = setup.find_elements(By.XPATH, "//div/a")
+        setup.find_element(By.XPATH, "//img[@src='../static/image112.png']").click()
+        setup.find_element(By.NAME, 'filename').send_keys("C:/Users/amnes/OneDrive/Desktop/images.jfif")
+        setup.find_element(By.NAME, 'painting_title').send_keys("The Most Famous Paintings in the World")
+        setup.find_element(By.NAME, 'description').send_keys(
+            "Which are your favorite famous art paintings? Are they on our list of the world’s most famous paintings? Perhaps you will discover a few famous artworks you have not heard of before. Let’s dive into our list of the world’s most popular paintings.")
+        setup.find_element(By.NAME, 'artist').send_keys("Sandro Botticelli")
+        setup.find_element(By.NAME, 'current_location').send_keys("Uffizi Gallery")
+        setup.find_element(By.NAME, 'date_created').send_keys("1482")
+        setup.find_element(By.XPATH, "//button[@class='button button5']").click()
+        after_delete = setup.find_elements(By.XPATH, "//div/a")
+        assert len(after_delete) > len(befor_delete), "faild to add the painting"
 
-def test_crossBrowser(crossBrowser):
-        print(crossBrowser)
+        log = self.getLogger()
+        log.debug("faild to add the painting")
 
 
 

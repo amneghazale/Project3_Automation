@@ -118,3 +118,54 @@
 2023-03-10 21:57:26,418 : INFO: test_AddReView :The review has been added
 2023-03-10 21:58:50,478 : INFO: test_AddReView :The review has been added
 2023-03-10 22:00:39,125 : INFO: test_AddReView :The review has been added
+2023-03-12 09:26:55,609 : INFO: test_AddSamePainting :The painting has been added
+2023-03-12 09:27:06,045 : INFO: test_Delete :The painting was deleted successfully
+2023-03-12 09:27:19,979 : INFO: test_AddReView :The review has been added
+2023-03-12 09:27:25,432 : INFO: test_AddSamePainting :The painting has been added
+2023-03-12 09:27:34,828 : INFO: test_Delete :The painting was deleted successfully
+2023-03-12 09:27:40,683 : INFO: test_AddRandomPhoto :The painting has been added
+2023-03-12 09:32:24,965 : INFO: test_RunSearch :painting found
+2023-03-12 09:32:29,288 : INFO: test_homepage :Homepage is woking
+2023-03-12 09:32:34,662 : INFO: test_addNewPainiting :The painting has been added
+2023-03-12 09:32:39,115 : INFO: test_AddReview :The review has been added
+2023-03-12 09:33:14,979 : INFO: test_AddReView :The review has been added
+2023-03-12 09:33:23,344 : INFO: test_AddReView :The review has been added
+2023-03-12 09:33:23,344 : INFO: test_AddReView :The review has been added
+2023-03-12 09:33:30,097 : INFO: test_AddSamePainting :The painting has been added
+2023-03-12 09:33:43,169 : INFO: test_Delete :The painting was deleted successfully
+2023-03-12 09:33:49,783 : INFO: test_AddRandomPhoto :The painting has been added
+2023-03-12 09:33:56,393 : INFO: test_title_homepage :Title is verified and found correct
+2023-03-12 09:34:03,023 : INFO: test_OpenSite :The site opened and we reached in the homePage
+2023-03-12 09:34:09,881 : INFO: test_PageAddPainting :The site opened and we reached in the Add paintind page
+2023-03-12 09:34:14,548 : INFO: test_Alter :The painting alter
+2023-03-12 09:34:19,726 : INFO: test_current_location : Cafe Terrace at Night current location verified 
+2023-03-12 09:36:36,718 : INFO: test_RunSearch :painting found
+2023-03-12 09:36:40,862 : INFO: test_homepage :Homepage is woking
+2023-03-12 09:36:46,299 : INFO: test_addNewPainiting :The painting has been added
+2023-03-12 09:36:50,624 : INFO: test_AddReview :The review has been added
+2023-03-12 09:37:22,806 : INFO: test_AddReView :The review has been added
+2023-03-12 09:37:29,284 : INFO: test_AddReView :The review has been added
+2023-03-12 09:37:29,284 : INFO: test_AddReView :The review has been added
+2023-03-12 09:37:34,952 : INFO: test_AddSamePainting :The painting has been added
+2023-03-12 09:37:48,283 : INFO: test_Delete :The painting was deleted successfully
+2023-03-12 09:37:54,659 : INFO: test_AddRandomPhoto :The painting has been added
+2023-03-12 09:37:59,102 : INFO: test_title_homepage :Title is verified and found correct
+2023-03-12 09:38:03,466 : INFO: test_OpenSite :The site opened and we reached in the homePage
+2023-03-12 09:38:08,286 : INFO: test_PageAddPainting :The site opened and we reached in the Add paintind page
+2023-03-12 09:38:12,638 : INFO: test_Alter :The painting alter
+2023-03-12 09:38:17,176 : INFO: test_current_location : Cafe Terrace at Night current location verified 
+2023-03-12 10:03:28,461 : INFO: test_AddReView :The review has been added
+2023-03-12 10:03:36,667 : INFO: test_AddReView :The review has been added
+2023-03-12 10:03:36,667 : INFO: test_AddReView :The review has been added
+2023-03-12 10:03:57,278 : INFO: test_AddReView :The review has been added
+2023-03-12 10:04:01,401 : INFO: test_AddReView :The review has been added
+2023-03-12 10:04:01,401 : INFO: test_AddReView :The review has been added
+2023-03-12 10:05:04,890 : INFO: test_AddReView :The review has been added
+2023-03-12 10:05:09,184 : INFO: test_AddReView :The review has been added
+2023-03-12 10:05:09,184 : INFO: test_AddReView :The review has been added
+2023-03-12 10:05:52,570 : INFO: test_AddReView :The review has been added
+2023-03-12 10:05:57,158 : INFO: test_AddReView :The review has been added
+2023-03-12 10:05:57,158 : INFO: test_AddReView :The review has been added
+2023-03-12 12:05:54,850 : DEBUG: test_fileType :faild to add the painting
+2023-03-12 12:06:00,988 : DEBUG: test_fileType :faild to add the painting
+2023-03-12 12:06:00,988 : DEBUG: test_fileType :faild to add the painting

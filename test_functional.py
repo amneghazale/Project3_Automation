@@ -70,8 +70,3 @@ class TestFunctional(BaseClass):
         log.error("painting not found")
 
 
-def test_crossBrowser(crossBrowser):
-        print(crossBrowser)
-
-
-
